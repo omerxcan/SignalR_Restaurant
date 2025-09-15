@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Restoran.EntityLayer\\Entities\\Testimonial.cs",
               "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.EntityLayer\\Entities\\Testimonial.cs",
               "RelativeToolTip": "Restoran.EntityLayer\\Entities\\Testimonial.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T07:01:56.828Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "Restoran.EntityLayer\\Entities\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T07:01:40.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T07:01:40.867Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Restoran.EntityLayer\\Entities\\Feature.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T07:01:34.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T07:01:34.779Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "Restoran.EntityLayer\\Entities\\Discount.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T07:01:18.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T07:01:18.294Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "Restoran.EntityLayer\\Entities\\Booking.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T07:00:56.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T07:00:56.655Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "Restoran.EntityLayer\\Entities\\About.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T06:59:10.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T06:59:10.3Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "Restoran.Api\\Restoran.Api.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-09-15T06:38:04.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T06:38:04.153Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "Restoran.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T06:37:36.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T06:37:36.381Z"
             }
           ]
         }
