@@ -9,8 +9,8 @@ namespace Restoran.EntityLayer.Entities
     public class SocialMedia
     {
         public int SocialMediaID { get; set; }
-        public string Title { get; set; } = string.Empty;
-        public string Url { get; set; } = string.Empty ;
-        public string Icon { get; set; } = string.Empty;    
+        public string Title { get; set; } = null!;
+        public string Url { get; set; } = null!;
+        public string Icon { get; set; } = null!;    
     }
 }
