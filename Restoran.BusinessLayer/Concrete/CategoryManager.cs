@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace Restoran.BusinessLayer.Concrete
 {
-    public class CategoryService : ICategoryService
+    public class CategoryManager : ICategoryService
     {
         private readonly ICategoryDal _categoryDal;
 
-        public CategoryService(ICategoryDal categoryDal)
+        public CategoryManager(ICategoryDal categoryDal)
         {
             _categoryDal = categoryDal;
         }

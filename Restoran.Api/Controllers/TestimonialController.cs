@@ -26,20 +26,20 @@ namespace Restoran.Api.Controllers
         public IActionResult CreateTestimonial(Testimonial testimonial)
         {
             _testimonialService.TAdd(testimonial);
-            return Ok("Sosyal medya başarıyla eklendi");
+            return Ok("Referans başarıyla eklendi");
         }
         [HttpDelete]
         public IActionResult DeleteTestimonial(int id)
         {
             var value = _testimonialService.TGetById(id);
             _testimonialService.TUpdate(value);
-            return Ok("Sosyal medya başarıyla silindi");
+            return Ok("Referans başarıyla silindi");
         }
         [HttpPut]
         public IActionResult UpdateTestimonial(Testimonial testimonial)
         {
             _testimonialService.TUpdate(testimonial);
-            return Ok("Sosyal medya başarıyla güncellendi");
+            return Ok("Referans başarıyla güncellendi");
         }
         [HttpGet("{id}")]
         public IActionResult GetTestimonial(int id)
