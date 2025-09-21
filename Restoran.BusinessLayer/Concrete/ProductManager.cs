@@ -38,6 +38,11 @@ namespace Restoran.BusinessLayer.Concrete
             return _productDal.GetById(id);
         }
 
+        public List<Product> TGetProductsWithCategory()
+        {
+            return _productDal.GetProductsWithCategory();
+        }
+
         public void TUpdate(Product entity)
         {
             _productDal.Update(entity);

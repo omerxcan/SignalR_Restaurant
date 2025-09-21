@@ -9,5 +9,6 @@ namespace Restoran.DataAccessLayer.Abstracts
 {
     public interface IProductDal : IGenericDal<Product>
     {
+        public List<Product> GetProductsWithCategory();
     }
 }

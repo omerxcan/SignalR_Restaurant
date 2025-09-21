@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj": {}
+    "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj": {
+    "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj",
         "projectName": "Restoran.EntityLayer",
-        "projectPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\DTOBOLAT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.EntityLayer\\obj\\",
+        "projectPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\omer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DTOBOLAT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://code.digiturk.net/ITCollection/Voltran/_packaging/Voltran-Feed-Debug/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {

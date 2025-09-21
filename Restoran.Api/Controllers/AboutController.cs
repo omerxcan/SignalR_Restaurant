@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Restoran.BusinessLayer.Abstract;
+using Restoran.DtoLayer.AboutDto;
 using Restoran.EntityLayer.Entities;
 
 namespace Restoran.Api.Controllers
@@ -20,9 +21,16 @@ namespace Restoran.Api.Controllers
         {
             return Ok(_aboutService.TGetAll());
         }
+
         [HttpPost]
-        public IActionResult CreateAbout(About about)
+        public IActionResult CreateAbout(CreateAboutDto aboutDto)
         {
+            About about = new About()
+            {
+                ImageUrl = aboutDto.ImageUrl,
+                Title = aboutDto.Title,
+                Description = aboutDto.Description
+            };
             _aboutService.TAdd(about);
             return Ok("Hakkımda bilgisi başarılı bir şekilde eklendi");
         }
@@ -34,8 +42,15 @@ namespace Restoran.Api.Controllers
             return Ok("Hakkımda bilgisi başarılı bir şekilde silindi");
         }
         [HttpPut]
-        public IActionResult UpdateAbout(About about)
+        public IActionResult UpdateAbout(UpdateAboutDto aboutDto)
         {
+            About about = new About()
+            {
+                AboutID = aboutDto.AboutID,
+                ImageUrl = aboutDto.ImageUrl,
+                Title = aboutDto.Title,
+                Description = aboutDto.Description
+            };
             _aboutService.TUpdate(about);
             return Ok("Hakkımda bilgisi başarılı bir şekilde güncellendi");
         }

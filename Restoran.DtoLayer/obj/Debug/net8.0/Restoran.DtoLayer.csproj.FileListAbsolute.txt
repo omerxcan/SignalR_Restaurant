@@ -1,0 +1,12 @@
+C:\Users\omer\Masaüstü\SignalR_Restaurant\SignalR_Restaurant\Restoran.DtoLayer\bin\Debug\net8.0\Restoran.DtoLayer.deps.json
+C:\Users\omer\Masaüstü\SignalR_Restaurant\SignalR_Restaurant\Restoran.DtoLayer\bin\Debug\net8.0\Restoran.DtoLayer.dll
+C:\Users\omer\Masaüstü\SignalR_Restaurant\SignalR_Restaurant\Restoran.DtoLayer\bin\Debug\net8.0\Restoran.DtoLayer.pdb
+C:\Users\omer\Masaüstü\SignalR_Restaurant\SignalR_Restaurant\Restoran.DtoLayer\obj\Debug\net8.0\Restoran.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omer\Masaüstü\SignalR_Restaurant\SignalR_Restaurant\Restoran.DtoLayer\obj\Debug\net8.0\Restoran.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\omer\Masaüstü\SignalR_Restaurant\SignalR_Restaurant\Restoran.DtoLayer\obj\Debug\net8.0\Restoran.DtoLayer.AssemblyInfo.cs
+C:\Users\omer\Masaüstü\SignalR_Restaurant\SignalR_Restaurant\Restoran.DtoLayer\obj\Debug\net8.0\Restoran.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\omer\Masaüstü\SignalR_Restaurant\SignalR_Restaurant\Restoran.DtoLayer\obj\Debug\net8.0\Restoran.DtoLayer.sourcelink.json
+C:\Users\omer\Masaüstü\SignalR_Restaurant\SignalR_Restaurant\Restoran.DtoLayer\obj\Debug\net8.0\Restoran.DtoLayer.dll
+C:\Users\omer\Masaüstü\SignalR_Restaurant\SignalR_Restaurant\Restoran.DtoLayer\obj\Debug\net8.0\refint\Restoran.DtoLayer.dll
+C:\Users\omer\Masaüstü\SignalR_Restaurant\SignalR_Restaurant\Restoran.DtoLayer\obj\Debug\net8.0\Restoran.DtoLayer.pdb
+C:\Users\omer\Masaüstü\SignalR_Restaurant\SignalR_Restaurant\Restoran.DtoLayer\obj\Debug\net8.0\ref\Restoran.DtoLayer.dll

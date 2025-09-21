@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Restoran.Api.csproj": {}
+    "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.Api\\Restoran.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Restoran.Api.csproj": {
+    "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.Api\\Restoran.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Restoran.Api.csproj",
+        "projectUniqueName": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.Api\\Restoran.Api.csproj",
         "projectName": "Restoran.Api",
-        "projectPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Restoran.Api.csproj",
-        "packagesPath": "C:\\Users\\DTOBOLAT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\obj\\",
+        "projectPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.Api\\Restoran.Api.csproj",
+        "packagesPath": "C:\\Users\\omer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DTOBOLAT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://code.digiturk.net/ITCollection/Voltran/_packaging/Voltran-Feed-Debug/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.BusinessLayer\\Restoran.BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.BusinessLayer\\Restoran.BusinessLayer.csproj"
+              "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.BusinessLayer\\Restoran.BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.BusinessLayer\\Restoran.BusinessLayer.csproj"
+              },
+              "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.DtoLayer\\Restoran.DtoLayer.csproj": {
+                "projectPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.DtoLayer\\Restoran.DtoLayer.csproj"
               }
             }
           }
@@ -55,6 +57,16 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -83,20 +95,20 @@
         }
       }
     },
-    "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.BusinessLayer\\Restoran.BusinessLayer.csproj": {
+    "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.BusinessLayer\\Restoran.BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.BusinessLayer\\Restoran.BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.BusinessLayer\\Restoran.BusinessLayer.csproj",
         "projectName": "Restoran.BusinessLayer",
-        "projectPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.BusinessLayer\\Restoran.BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\DTOBOLAT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.BusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.BusinessLayer\\Restoran.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\omer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DTOBOLAT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -105,15 +117,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://code.digiturk.net/ITCollection/Voltran/_packaging/Voltran-Feed-Debug/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DataAccessLayer\\Restoran.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DataAccessLayer\\Restoran.DataAccessLayer.csproj"
+              "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.DataAccessLayer\\Restoran.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.DataAccessLayer\\Restoran.DataAccessLayer.csproj"
               }
             }
           }
@@ -153,20 +164,20 @@
         }
       }
     },
-    "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DataAccessLayer\\Restoran.DataAccessLayer.csproj": {
+    "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.DataAccessLayer\\Restoran.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DataAccessLayer\\Restoran.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.DataAccessLayer\\Restoran.DataAccessLayer.csproj",
         "projectName": "Restoran.DataAccessLayer",
-        "projectPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DataAccessLayer\\Restoran.DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\DTOBOLAT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.DataAccessLayer\\Restoran.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\omer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DTOBOLAT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -175,15 +186,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://code.digiturk.net/ITCollection/Voltran/_packaging/Voltran-Feed-Debug/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj"
+              "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.DtoLayer\\Restoran.DtoLayer.csproj": {
+                "projectPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.DtoLayer\\Restoran.DtoLayer.csproj"
+              },
+              "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj"
               }
             }
           }
@@ -214,6 +227,10 @@
               "target": "Package",
               "version": "[8.0.1, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -241,20 +258,20 @@
         }
       }
     },
-    "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj": {
+    "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.DtoLayer\\Restoran.DtoLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj",
-        "projectName": "Restoran.EntityLayer",
-        "projectPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\DTOBOLAT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.EntityLayer\\obj\\",
+        "projectUniqueName": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.DtoLayer\\Restoran.DtoLayer.csproj",
+        "projectName": "Restoran.DtoLayer",
+        "projectPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.DtoLayer\\Restoran.DtoLayer.csproj",
+        "packagesPath": "C:\\Users\\omer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.DtoLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DTOBOLAT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -263,8 +280,72 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://code.digiturk.net/ITCollection/Voltran/_packaging/Voltran-Feed-Debug/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj",
+        "projectName": "Restoran.EntityLayer",
+        "projectPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.EntityLayer\\Restoran.EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\omer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.EntityLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\omer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
