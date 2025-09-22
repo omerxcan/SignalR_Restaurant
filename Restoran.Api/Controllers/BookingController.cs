@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Restoran.BusinessLayer.Abstract;
+using Restoran.DtoLayer.AboutDto;
+using Restoran.DtoLayer.BookingDto;
 using Restoran.EntityLayer.Entities;
 
 namespace Restoran.Api.Controllers
@@ -10,22 +13,25 @@ namespace Restoran.Api.Controllers
     public class BookingController : ControllerBase
     {
         private readonly IBookingService _bookingService;
+        private readonly IMapper _mapper;
 
-        public BookingController(IBookingService bookingService)
+        public BookingController(IBookingService bookingService, IMapper mapper)
         {
             _bookingService = bookingService;
+            _mapper = mapper;
         }
         [HttpGet]
         public IActionResult BookingList()
         {
-            var values = _bookingService.TGetAll();
+            var values = _mapper.Map<List<ResultBookingDto>>(_bookingService.TGetAll());
             return Ok(values);
         }
         [HttpPost]
-        public IActionResult CreateBooking(Booking booking)
+        public IActionResult CreateBooking(CreateBookingDto createBookingDto)
         {
-            _bookingService.TAdd(booking);
-            return Ok("Rezervasyon başarılı bir şekilde oluşturuldu");
+            var value = _mapper.Map<Booking>(createBookingDto);
+            _bookingService.TAdd(value);
+            return Ok("Rezervasyon Oluşturuldu");
         }
         [HttpDelete]
         public IActionResult DeleteBooking(int id)
@@ -35,15 +41,16 @@ namespace Restoran.Api.Controllers
             return Ok("Rezervasyon başarılı bir şekilde silindi");
         }
         [HttpPut]
-        public IActionResult UpdateBooking(Booking booking)
+        public IActionResult UpdateBooking(UpdateBookingDto updateBookingDto)
         {
-            _bookingService.TUpdate(booking);
+            var value = _mapper.Map<Booking>(updateBookingDto);
+            _bookingService.TUpdate(value);
             return Ok("Rezervasyon başarılı bir şekilde güncellendi");
         }
         [HttpGet("{id}")]
         public IActionResult GetBooking(int id)
         {
-            var value = _bookingService.TGetById(id);
+            var value = _mapper.Map<GetBookingDto>(_bookingService.TGetById(id)); 
             return Ok(value);
         }
 

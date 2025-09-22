@@ -92,8 +92,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "booking",
-        "Type": "Restoran.EntityLayer.Entities.Booking",
+        "Name": "createBookingDto",
+        "Type": "Restoran.DtoLayer.BookingDto.CreateBookingDto",
         "IsRequired": true
       }
     ],
@@ -124,8 +124,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "booking",
-        "Type": "Restoran.EntityLayer.Entities.Booking",
+        "Name": "updateBookingDto",
+        "Type": "Restoran.DtoLayer.BookingDto.UpdateBookingDto",
         "IsRequired": true
       }
     ],
@@ -166,8 +166,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "category",
-        "Type": "Restoran.Api.DAL.Entities.Category",
+        "Name": "createCategoryDto",
+        "Type": "Restoran.DtoLayer.CategoryDto.CreateCategoryDto",
         "IsRequired": true
       }
     ],
@@ -198,8 +198,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "category",
-        "Type": "Restoran.Api.DAL.Entities.Category",
+        "Name": "updateCategoryDto",
+        "Type": "Restoran.DtoLayer.CategoryDto.UpdateCategoryDto",
         "IsRequired": true
       }
     ],
@@ -240,8 +240,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "contact",
-        "Type": "Restoran.EntityLayer.Entities.Contact",
+        "Name": "contactDto",
+        "Type": "Restoran.DtoLayer.ContactDto.CreateContactDto",
         "IsRequired": true
       }
     ],
@@ -272,8 +272,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "contact",
-        "Type": "Restoran.EntityLayer.Entities.Contact",
+        "Name": "updateContactDto",
+        "Type": "Restoran.DtoLayer.ContactDto.UpdateContactDto",
         "IsRequired": true
       }
     ],
@@ -314,8 +314,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "discount",
-        "Type": "Restoran.EntityLayer.Entities.Discount",
+        "Name": "createDiscountDto",
+        "Type": "Restoran.DtoLayer.DiscountDto.CreateDiscountDto",
         "IsRequired": true
       }
     ],
@@ -346,8 +346,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "discount",
-        "Type": "Restoran.EntityLayer.Entities.Discount",
+        "Name": "updateDiscountDto",
+        "Type": "Restoran.DtoLayer.DiscountDto.UpdateDiscountDto",
         "IsRequired": true
       }
     ],
@@ -388,8 +388,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "feature",
-        "Type": "Restoran.EntityLayer.Entities.Feature",
+        "Name": "createFeatureDto",
+        "Type": "Restoran.DtoLayer.FeatureDto.CreateFeatureDto",
         "IsRequired": true
       }
     ],
@@ -420,8 +420,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "feature",
-        "Type": "Restoran.EntityLayer.Entities.Feature",
+        "Name": "updateFeatureDto",
+        "Type": "Restoran.DtoLayer.FeatureDto.UpdateFeatureDto",
         "IsRequired": true
       }
     ],
@@ -462,8 +462,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
-        "Type": "Restoran.EntityLayer.Entities.Product",
+        "Name": "createProductDto",
+        "Type": "Restoran.DtoLayer.ProductDto.CreateProductDto",
         "IsRequired": true
       }
     ],
@@ -494,8 +494,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
-        "Type": "Restoran.EntityLayer.Entities.Product",
+        "Name": "updateProductDto",
+        "Type": "Restoran.DtoLayer.ProductDto.UpdateProductDto",
         "IsRequired": true
       }
     ],
@@ -546,8 +546,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "socialMedia",
-        "Type": "Restoran.EntityLayer.Entities.SocialMedia",
+        "Name": "createSocialMediaDto",
+        "Type": "Restoran.DtoLayer.SocialMediaDto.CreateSocialMediaDto",
         "IsRequired": true
       }
     ],
@@ -578,8 +578,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "socialMedia",
-        "Type": "Restoran.EntityLayer.Entities.SocialMedia",
+        "Name": "updateSocialMediaDto",
+        "Type": "Restoran.DtoLayer.SocialMediaDto.UpdateSocialMediaDto",
         "IsRequired": true
       }
     ],
@@ -620,8 +620,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "testimonial",
-        "Type": "Restoran.EntityLayer.Entities.Testimonial",
+        "Name": "createTestimonialDto",
+        "Type": "Restoran.DtoLayer.TestimonialDto.CreateTestimonialDto",
         "IsRequired": true
       }
     ],
@@ -652,8 +652,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "testimonial",
-        "Type": "Restoran.EntityLayer.Entities.Testimonial",
+        "Name": "updateTestimonialDto",
+        "Type": "Restoran.DtoLayer.TestimonialDto.UpdateTestimonialDto",
         "IsRequired": true
       }
     ],

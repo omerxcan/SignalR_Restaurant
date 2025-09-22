@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Restoran.BusinessLayer.Abstract;
+using Restoran.DtoLayer.DiscountDto;
 using Restoran.EntityLayer.Entities;
 
 namespace Restoran.Api.Controllers
@@ -10,21 +12,24 @@ namespace Restoran.Api.Controllers
     public class DiscountController : ControllerBase
     {
         private readonly IDiscountService _discountService;
+        private readonly IMapper _mapper;
 
-        public DiscountController(IDiscountService discountService)
+        public DiscountController(IDiscountService discountService, IMapper mapper)
         {
             _discountService = discountService;
+            _mapper = mapper;
         }
         [HttpGet]
         public IActionResult DiscountList()
         {
-            var values = _discountService.TGetAll();
+            var values = _mapper.Map<List<ResultDiscountDto>>(_discountService.TGetAll());
             return Ok(values);
         }
         [HttpPost]
-        public IActionResult CreateDiscount(Discount discount)
+        public IActionResult CreateDiscount(CreateDiscountDto createDiscountDto)
         {
-            _discountService.TAdd(discount);
+            var value = _mapper.Map<Discount>(createDiscountDto);
+            _discountService.TAdd(value);
             return Ok("İndirim başarıyla oluşturuldu");
         }
         [HttpDelete]
@@ -35,15 +40,16 @@ namespace Restoran.Api.Controllers
             return Ok("İndirim başarıyla silindi");
         }
         [HttpPut]
-        public IActionResult UpdateDiscount(Discount discount)
+        public IActionResult UpdateDiscount(UpdateDiscountDto updateDiscountDto)
         {
-            _discountService.TUpdate(discount);
+            var value = _mapper.Map<Discount>(updateDiscountDto);
+            _discountService.TUpdate(value);
             return Ok("İndirim başarıyla güncellendi");
         }
         [HttpGet("{id}")]
         public IActionResult GetDiscount(int id)
         {
-            var value = _discountService.TGetById(id);
+            var value = _mapper.Map<GetDiscountDto>(_discountService.TGetById(id));
             return Ok(value);
         }
     }

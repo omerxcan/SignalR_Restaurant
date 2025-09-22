@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Restoran.Api.DAL.Entities;
 using Restoran.BusinessLayer.Abstract;
+using Restoran.DtoLayer.CategoryDto;
 
 namespace Restoran.Api.Controllers
 {
@@ -10,22 +12,32 @@ namespace Restoran.Api.Controllers
     public class CategoryController : ControllerBase
     {
         private readonly ICategoryService _categoryService;
+        private readonly IMapper _mapper;
 
-        public CategoryController(ICategoryService categoryService)
+        public CategoryController(ICategoryService categoryService, IMapper mapper)
         {
             _categoryService = categoryService;
+            _mapper = mapper;
         }
         [HttpGet]
         public IActionResult CategoryList()
         {
-            var values = _categoryService.TGetAll();
+            var values = _mapper.Map<List<ResultCategoryDto>>(_categoryService.TGetAll());
             return Ok(values);
         }
         [HttpPost]
-        public IActionResult CreateCategory(Category category)
+        public IActionResult CreateCategory(CreateCategoryDto createCategoryDto)
         {
-            _categoryService.TAdd(category);
-            return Ok("Kategori başarıyla oluşturuldu");
+            var value = _mapper.Map<Category>(createCategoryDto);
+            value.Status = true;
+            _categoryService.TAdd(value);
+            return Ok("Kategori Başarıyla oluşturuldu");
+            //_categoryService.TAdd(new Category
+            //{
+            //    CategoryName = createCategoryDto.CategoryName,
+            //    Status = true,
+            //});
+            //return Ok("Kategori başarıyla oluşturuldu");
         }
         [HttpDelete]
         public IActionResult DeleteCategory(int id)
@@ -35,15 +47,16 @@ namespace Restoran.Api.Controllers
             return Ok("Kategori başarıyla silindi");
         }
         [HttpPut]
-        public IActionResult UpdateCategory(Category category)
+        public IActionResult UpdateCategory(UpdateCategoryDto updateCategoryDto)
         {
-            _categoryService.TUpdate(category);
+            var value = _mapper.Map<Category>(updateCategoryDto);
+            _categoryService.TUpdate(value);
             return Ok("Kategori başarıyla güncellendi");
         }
         [HttpGet("{id}")]
         public IActionResult GetCategory(int id)
         {
-            var value = _categoryService.TGetById(id);
+            var value = _mapper.Map<GetCategoryDto>(_categoryService.TGetById(id));
             return Ok(value);
         }
 

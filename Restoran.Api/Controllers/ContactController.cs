@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Restoran.BusinessLayer.Abstract;
+using Restoran.DtoLayer.ContactDto;
 using Restoran.EntityLayer.Entities;
 
 namespace Restoran.Api.Controllers
@@ -10,21 +12,24 @@ namespace Restoran.Api.Controllers
     public class ContactController : ControllerBase
     {
         private readonly IContactService _contactService;
+        private readonly IMapper _mapper;
 
-        public ContactController(IContactService contactService)
+        public ContactController(IContactService contactService, IMapper mapper)
         {
             _contactService = contactService;
+            _mapper = mapper;
         }
         [HttpGet]
         public IActionResult ContactList()
         {
-            var values = _contactService.TGetAll();
+            var values = _mapper.Map<List<ResultContactDto>>(_contactService.TGetAll());
             return Ok(values);
         }
         [HttpPost]
-        public IActionResult CreateContact(Contact contact)
+        public IActionResult CreateContact(CreateContactDto contactDto)
         {
-            _contactService.TAdd(contact);
+            var value = _mapper.Map<Contact>(contactDto);
+            _contactService.TAdd(value);
             return Ok("İletişim başarıyla oluşturuldu");
         }
         [HttpDelete]
@@ -35,15 +40,16 @@ namespace Restoran.Api.Controllers
             return Ok("İletişim Silindi");
         }
         [HttpPut]
-        public IActionResult UpdateContact(Contact contact)
+        public IActionResult UpdateContact(UpdateContactDto updateContactDto)
         {
-            _contactService.TUpdate(contact);
+            var value = _mapper.Map<Contact>(updateContactDto);
+            _contactService.TUpdate(value);
             return Ok("İletişim güncellendi");
         }
         [HttpGet("{id}")]
         public IActionResult GetContact(int id)
         {
-            var value = _contactService.TGetById(id);
+            var value = _mapper.Map<GetContactDto>(_contactService.TGetById(id));
             return Ok(value);
         }
     }

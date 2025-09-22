@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Restoran.BusinessLayer.Abstract;
 using Restoran.DataAccessLayer.Abstracts;
+using Restoran.DtoLayer.TestimonialDto;
 using Restoran.EntityLayer.Entities;
 
 namespace Restoran.Api.Controllers
@@ -11,21 +13,24 @@ namespace Restoran.Api.Controllers
     public class TestimonialController : ControllerBase
     {
         private readonly ITestimonialService _testimonialService;
+        private readonly IMapper _mapper;
 
-        public TestimonialController(ITestimonialService testimonialService)
+        public TestimonialController(ITestimonialService testimonialService, IMapper mapper)
         {
             _testimonialService = testimonialService;
+            _mapper = mapper;
         }
         [HttpGet]
         public IActionResult TestimonialList()
         {
-            var values = _testimonialService.TGetAll();
+            var values = _mapper.Map<List<ResultTestimonialDto>>(_testimonialService.TGetAll());
             return Ok(values);
         }
         [HttpPost]
-        public IActionResult CreateTestimonial(Testimonial testimonial)
+        public IActionResult CreateTestimonial(CreateTestimonialDto createTestimonialDto)
         {
-            _testimonialService.TAdd(testimonial);
+            var value = _mapper.Map<Testimonial>(createTestimonialDto);
+            _testimonialService.TAdd(value);
             return Ok("Referans başarıyla eklendi");
         }
         [HttpDelete]
@@ -36,15 +41,16 @@ namespace Restoran.Api.Controllers
             return Ok("Referans başarıyla silindi");
         }
         [HttpPut]
-        public IActionResult UpdateTestimonial(Testimonial testimonial)
+        public IActionResult UpdateTestimonial(UpdateTestimonialDto updateTestimonialDto)
         {
-            _testimonialService.TUpdate(testimonial);
+            var value = _mapper.Map<Testimonial>(updateTestimonialDto);
+            _testimonialService.TUpdate(value);
             return Ok("Referans başarıyla güncellendi");
         }
         [HttpGet("{id}")]
         public IActionResult GetTestimonial(int id)
         {
-            var value = _testimonialService.TGetById(id);
+            var value = _mapper.Map<GetTestimonialDto>(_testimonialService.TGetById(id));
             return Ok(value);
         }
     }

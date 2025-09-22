@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Restoran.BusinessLayer.Abstract;
+using Restoran.DtoLayer.FeatureDto;
 using Restoran.EntityLayer.Entities;
 
 namespace Restoran.Api.Controllers
@@ -10,21 +12,24 @@ namespace Restoran.Api.Controllers
     public class FeatureController : ControllerBase
     {
         private readonly IFeatureService _featureService;
+        private readonly IMapper _mapper;
 
-        public FeatureController(IFeatureService featureService)
+        public FeatureController(IFeatureService featureService, IMapper mapper)
         {
             _featureService = featureService;
+            _mapper = mapper;
         }
         [HttpGet]
         public IActionResult FeatureList()
         {
-            var values = _featureService.TGetAll();
+            var values = _mapper.Map<List<ResultFeatureDto>>(_featureService.TGetAll());
             return Ok(values);
         }
         [HttpPost]
-        public IActionResult CreateFeature(Feature feature)
+        public IActionResult CreateFeature(CreateFeatureDto createFeatureDto)
         {
-            _featureService.TAdd(feature);
+            var value = _mapper.Map<Feature>(createFeatureDto);
+            _featureService.TAdd(value);
             return Ok("Feature başarıyla eklendi");
         }
         [HttpDelete]
@@ -35,15 +40,16 @@ namespace Restoran.Api.Controllers
             return Ok("Feature başarıyla silindi");
         }
         [HttpPut]
-        public IActionResult UpdateFeature(Feature feature)
+        public IActionResult UpdateFeature(UpdateFeatureDto updateFeatureDto)
         {
-            _featureService.TUpdate(feature);
+            var value = _mapper.Map<Feature>(updateFeatureDto);
+            _featureService.TUpdate(value);
             return Ok("Feature başarıyla güncellendi");
         }
         [HttpGet("{id}")]
         public IActionResult GetFeature(int id)
         {
-            var value = _featureService.TGetById(id);
+            var value = _mapper.Map<GetFeatureDto>(_featureService.TGetById(id));
             return Ok(value);
         }
     }

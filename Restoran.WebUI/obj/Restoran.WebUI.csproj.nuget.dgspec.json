@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.WebUI\\Restoran.WebUI.csproj": {}
+    "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\Restoran.WebUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.WebUI\\Restoran.WebUI.csproj": {
+    "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\Restoran.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.WebUI\\Restoran.WebUI.csproj",
+        "projectUniqueName": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\Restoran.WebUI.csproj",
         "projectName": "Restoran.WebUI",
-        "projectPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.WebUI\\Restoran.WebUI.csproj",
-        "packagesPath": "C:\\Users\\omer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omer\\Masaüstü\\SignalR_Restaurant\\SignalR_Restaurant\\Restoran.WebUI\\obj\\",
+        "projectPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\Restoran.WebUI.csproj",
+        "packagesPath": "C:\\Users\\DTOBOLAT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\omer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DTOBOLAT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://code.digiturk.net/ITCollection/Voltran/_packaging/Voltran-Feed-Debug/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {

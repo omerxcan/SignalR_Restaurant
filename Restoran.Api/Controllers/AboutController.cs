@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 using Restoran.BusinessLayer.Abstract;
 using Restoran.DtoLayer.AboutDto;
 using Restoran.EntityLayer.Entities;
@@ -11,28 +13,33 @@ namespace Restoran.Api.Controllers
     public class AboutController : ControllerBase
     {
         private readonly IAboutService _aboutService;
-
-        public AboutController(IAboutService aboutService)
+        private readonly IMapper _mapper;
+        public AboutController(IAboutService aboutService, IMapper mapper)
         {
             _aboutService = aboutService;
+            _mapper = mapper;
         }
         [HttpGet]
         public IActionResult AboutList()
         {
-            return Ok(_aboutService.TGetAll());
+            var values = _mapper.Map<List<ResultAboutDto>>(_aboutService.TGetAll());
+            return Ok(values);
         }
 
         [HttpPost]
         public IActionResult CreateAbout(CreateAboutDto aboutDto)
         {
-            About about = new About()
-            {
-                ImageUrl = aboutDto.ImageUrl,
-                Title = aboutDto.Title,
-                Description = aboutDto.Description
-            };
-            _aboutService.TAdd(about);
+            var value = _mapper.Map<About>(aboutDto);
+            _aboutService.TAdd(value);
             return Ok("Hakkımda bilgisi başarılı bir şekilde eklendi");
+            //About about = new About()
+            //{
+            //    ImageUrl = aboutDto.ImageUrl,
+            //    Title = aboutDto.Title,
+            //    Description = aboutDto.Description
+            //};
+            //_aboutService.TAdd(about);
+            //return Ok("Hakkımda bilgisi başarılı bir şekilde eklendi");
         }
         [HttpDelete]
         public IActionResult DeleteAbout(int id)
@@ -44,21 +51,26 @@ namespace Restoran.Api.Controllers
         [HttpPut]
         public IActionResult UpdateAbout(UpdateAboutDto aboutDto)
         {
-            About about = new About()
-            {
-                AboutID = aboutDto.AboutID,
-                ImageUrl = aboutDto.ImageUrl,
-                Title = aboutDto.Title,
-                Description = aboutDto.Description
-            };
-            _aboutService.TUpdate(about);
+            var value = _mapper.Map<About>(aboutDto);
+            _aboutService.TUpdate(value);
             return Ok("Hakkımda bilgisi başarılı bir şekilde güncellendi");
+            //About about = new About()
+            //{
+            //    AboutID = aboutDto.AboutID,
+            //    ImageUrl = aboutDto.ImageUrl,
+            //    Title = aboutDto.Title,
+            //    Description = aboutDto.Description
+            //};
+            //_aboutService.TUpdate(about);
+            //return Ok("Hakkımda bilgisi başarılı bir şekilde güncellendi");
         }
         [HttpGet("{id}")]
         public IActionResult GetAbout(int id)
         {
-            var value = _aboutService.TGetById(id);
+            var value = _mapper.Map<GetAboutDto>(_aboutService.TGetById(id));
             return Ok(value);
+            //var value = _aboutService.TGetById(id);
+            //return Ok(value);
         }
     }
 }

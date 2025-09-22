@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Restoran.BusinessLayer.Abstract;
 using Restoran.DataAccessLayer.Contracts;
+using Restoran.DtoLayer.FeatureDto;
 using Restoran.DtoLayer.ProductDto;
 using Restoran.EntityLayer.Entities;
 using System.Reflection.Metadata.Ecma335;
@@ -14,17 +16,19 @@ namespace Restoran.Api.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IProductService _productService;
+        private readonly IMapper _mapper;
         private readonly AppDbContext _context;
 
-        public ProductController(IProductService productService, AppDbContext context)
+        public ProductController(IProductService productService, AppDbContext context, IMapper mapper)
         {
             _productService = productService;
             _context = context;
+            _mapper = mapper;
         }
         [HttpGet]
         public IActionResult ProductList()
         {
-            var values = _productService.TGetAll();
+            var values = _mapper.Map<List<ResultProductDto>>(_productService.TGetAll());
             return Ok(values);
         }
         [HttpGet("ProductListWithCategory")]
@@ -43,9 +47,10 @@ namespace Restoran.Api.Controllers
             return Ok(values);
         }
         [HttpPost]
-        public IActionResult CreateProduct(Product product)
+        public IActionResult CreateProduct(CreateProductDto createProductDto)
         {
-            _productService.TAdd(product);
+            var value = _mapper.Map<Product>(createProductDto);
+            _productService.TAdd(value);
             return Ok("Ürün başarıyla oluşturuldu");
         }
         [HttpDelete]
@@ -55,15 +60,16 @@ namespace Restoran.Api.Controllers
             return Ok(value);
         }
         [HttpPut]
-        public IActionResult UpdateProduct(Product product)
+        public IActionResult UpdateProduct(UpdateProductDto updateProductDto)
         {
-            _productService.TUpdate(product);
+            var value = _mapper.Map<Product>(updateProductDto);
+            _productService.TUpdate(value);
             return Ok("Ürün başarıyla güncellendi");
         }
         [HttpGet("{id}")]
         public IActionResult GetProduct(int id)
         {
-            var value = _productService.TGetById(id);
+            var value = _mapper.Map<GetProductDto>(_productService.TGetById(id));
             return Ok(value);
         }
     }
