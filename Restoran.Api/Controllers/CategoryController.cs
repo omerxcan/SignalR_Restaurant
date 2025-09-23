@@ -39,7 +39,7 @@ namespace Restoran.Api.Controllers
             //});
             //return Ok("Kategori başarıyla oluşturuldu");
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteCategory(int id)
         {
             var value = _categoryService.TGetById(id);

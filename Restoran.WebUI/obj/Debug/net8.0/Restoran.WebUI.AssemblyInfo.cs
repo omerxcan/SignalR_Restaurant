@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Restoran.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b95dd19ff6287debdbc8090ed764abc2dbaa4b2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af94afb94014f4d1e09b2e91dec8d9a8a8fabb97")]
 [assembly: System.Reflection.AssemblyProductAttribute("Restoran.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Restoran.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

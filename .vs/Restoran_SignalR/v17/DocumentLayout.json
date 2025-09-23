@@ -3,6 +3,90 @@
   "WorkspaceRootPath": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.webui\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|solutionrelative:restoran.webui\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.webui\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|solutionrelative:restoran.webui\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.webui\\viewmodels\\productviewmodels\\createproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|solutionrelative:restoran.webui\\viewmodels\\productviewmodels\\createproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.webui\\viewmodels\\productviewmodels\\updateproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|solutionrelative:restoran.webui\\viewmodels\\productviewmodels\\updateproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.webui\\viewmodels\\productviewmodels\\getproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|solutionrelative:restoran.webui\\viewmodels\\productviewmodels\\getproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.dtolayer\\productdto\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|solutionrelative:restoran.dtolayer\\productdto\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.dtolayer\\productdto\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|solutionrelative:restoran.dtolayer\\productdto\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.webui\\viewmodels\\productviewmodels\\resultproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|solutionrelative:restoran.webui\\viewmodels\\productviewmodels\\resultproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.dtolayer\\productdto\\resultproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|solutionrelative:restoran.dtolayer\\productdto\\resultproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.webui\\viewmodels\\categoryviewmodels\\getcategortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|solutionrelative:restoran.webui\\viewmodels\\categoryviewmodels\\getcategortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.dtolayer\\categorydto\\getcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|solutionrelative:restoran.dtolayer\\categorydto\\getcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|solutionrelative:restoran.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.dtolayer\\categorydto\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|solutionrelative:restoran.dtolayer\\categorydto\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.webui\\viewmodels\\categoryviewmodels\\updatecategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|solutionrelative:restoran.webui\\viewmodels\\categoryviewmodels\\updatecategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.dtolayer\\categorydto\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|solutionrelative:restoran.dtolayer\\categorydto\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|solutionrelative:restoran.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.webui\\viewmodels\\categoryviewmodels\\resultcategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|solutionrelative:restoran.webui\\viewmodels\\categoryviewmodels\\resultcategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|solutionrelative:restoran.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.webui\\viewmodels\\categoryviewmodels\\createcategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|solutionrelative:restoran.webui\\viewmodels\\categoryviewmodels\\createcategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{382E5DA4-A593-408D-985E-89530E553EFB}|Restoran.BusinessLayer\\Restoran.BusinessLayer.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.businesslayer\\concrete\\aboutmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{382E5DA4-A593-408D-985E-89530E553EFB}|Restoran.BusinessLayer\\Restoran.BusinessLayer.csproj|solutionrelative:restoran.businesslayer\\concrete\\aboutmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.api\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|solutionrelative:restoran.api\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.api\\controllers\\featurecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|solutionrelative:restoran.api\\controllers\\featurecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,24 +99,12 @@
       "RelativeMoniker": "D:0:0:{C2F60A48-5521-46C0-8CDF-B5075A8059EF}|Restoran.DataAccessLayer\\Restoran.DataAccessLayer.csproj|solutionrelative:restoran.dataaccesslayer\\entityframework\\efproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|solutionrelative:restoran.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.api\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|solutionrelative:restoran.api\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|solutionrelative:restoran.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.api\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|solutionrelative:restoran.api\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.webui\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6275DF2D-E737-4E56-9811-012113B20CA2}|Restoran.WebUI\\Restoran.WebUI.csproj|solutionrelative:restoran.webui\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.api\\restoran.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -51,10 +123,6 @@
       "RelativeMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|solutionrelative:restoran.api\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|solutionrelative:restoran.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|solutionrelative:restoran.api\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,14 +135,6 @@
       "RelativeMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|solutionrelative:restoran.api\\mapping\\aboutmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.dtolayer\\categorydto\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|solutionrelative:restoran.dtolayer\\categorydto\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.dtolayer\\categorydto\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|solutionrelative:restoran.dtolayer\\categorydto\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C2F60A48-5521-46C0-8CDF-B5075A8059EF}|Restoran.DataAccessLayer\\Restoran.DataAccessLayer.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.dataaccesslayer\\contracts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2F60A48-5521-46C0-8CDF-B5075A8059EF}|Restoran.DataAccessLayer\\Restoran.DataAccessLayer.csproj|solutionrelative:restoran.dataaccesslayer\\contracts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -85,10 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.api\\mapping\\contactmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{126F53B0-939A-442D-98BE-0D47EDAFE855}|Restoran.Api\\Restoran.Api.csproj|solutionrelative:restoran.api\\mapping\\contactmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.dtolayer\\productdto\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C647F5F9-34D0-4C4F-8C02-B3F4AF15D75A}|Restoran.DtoLayer\\Restoran.DtoLayer.csproj|solutionrelative:restoran.dtolayer\\productdto\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{382E5DA4-A593-408D-985E-89530E553EFB}|Restoran.BusinessLayer\\Restoran.BusinessLayer.csproj|c:\\users\\dtobolat\\source\\repos\\restoran_signalr\\restoran.businesslayer\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,37 +218,271 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TestimonialController.cs",
-              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\TestimonialController.cs",
-              "RelativeDocumentMoniker": "Restoran.Api\\Controllers\\TestimonialController.cs",
-              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\TestimonialController.cs",
-              "RelativeToolTip": "Restoran.Api\\Controllers\\TestimonialController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwDQAAABWAAAAAAAAAA==",
+              "Title": "GetProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\ProductViewModels\\GetProductViewModel.cs",
+              "RelativeDocumentMoniker": "Restoran.WebUI\\ViewModels\\ProductViewModels\\GetProductViewModel.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\ProductViewModels\\GetProductViewModel.cs",
+              "RelativeToolTip": "Restoran.WebUI\\ViewModels\\ProductViewModels\\GetProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T08:15:58.692Z",
+              "WhenOpened": "2025-09-23T08:24:57.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\ProductViewModels\\UpdateProductViewModel.cs",
+              "RelativeDocumentMoniker": "Restoran.WebUI\\ViewModels\\ProductViewModels\\UpdateProductViewModel.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\ProductViewModels\\UpdateProductViewModel.cs",
+              "RelativeToolTip": "Restoran.WebUI\\ViewModels\\ProductViewModels\\UpdateProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T08:22:22.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\ProductViewModels\\CreateProductViewModel.cs",
+              "RelativeDocumentMoniker": "Restoran.WebUI\\ViewModels\\ProductViewModels\\CreateProductViewModel.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\ProductViewModels\\CreateProductViewModel.cs",
+              "RelativeToolTip": "Restoran.WebUI\\ViewModels\\ProductViewModels\\CreateProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T08:02:25.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\ProductDto\\GetProductDto.cs",
+              "RelativeDocumentMoniker": "Restoran.DtoLayer\\ProductDto\\GetProductDto.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\ProductDto\\GetProductDto.cs",
+              "RelativeToolTip": "Restoran.DtoLayer\\ProductDto\\GetProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T13:29:34.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Restoran.WebUI\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Restoran.WebUI\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowDsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T08:39:38.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FeatureController.cs",
-              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\FeatureController.cs",
-              "RelativeDocumentMoniker": "Restoran.Api\\Controllers\\FeatureController.cs",
-              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\FeatureController.cs",
-              "RelativeToolTip": "Restoran.Api\\Controllers\\FeatureController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAABOAAAAAAAAAA==",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Restoran.WebUI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Restoran.WebUI\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T07:26:45.943Z",
+              "WhenOpened": "2025-09-23T07:52:44.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\ProductDto\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "Restoran.DtoLayer\\ProductDto\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\ProductDto\\CreateProductDto.cs",
+              "RelativeToolTip": "Restoran.DtoLayer\\ProductDto\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T08:02:31.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResultProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\ProductViewModels\\ResultProductViewModel.cs",
+              "RelativeDocumentMoniker": "Restoran.WebUI\\ViewModels\\ProductViewModels\\ResultProductViewModel.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\ProductViewModels\\ResultProductViewModel.cs",
+              "RelativeToolTip": "Restoran.WebUI\\ViewModels\\ProductViewModels\\ResultProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:55:45.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ResultProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\ProductDto\\ResultProductDto.cs",
+              "RelativeDocumentMoniker": "Restoran.DtoLayer\\ProductDto\\ResultProductDto.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\ProductDto\\ResultProductDto.cs",
+              "RelativeToolTip": "Restoran.DtoLayer\\ProductDto\\ResultProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:56:03.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\CategoryDto\\GetCategoryDto.cs",
+              "RelativeDocumentMoniker": "Restoran.DtoLayer\\CategoryDto\\GetCategoryDto.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\CategoryDto\\GetCategoryDto.cs",
+              "RelativeToolTip": "Restoran.DtoLayer\\CategoryDto\\GetCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:37:44.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetCategortViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\CategoryViewModels\\GetCategortViewModel.cs",
+              "RelativeDocumentMoniker": "Restoran.WebUI\\ViewModels\\CategoryViewModels\\GetCategortViewModel.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\CategoryViewModels\\GetCategortViewModel.cs",
+              "RelativeToolTip": "Restoran.WebUI\\ViewModels\\CategoryViewModels\\GetCategortViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:37:38.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateCategoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\CategoryViewModels\\UpdateCategoryViewModel.cs",
+              "RelativeDocumentMoniker": "Restoran.WebUI\\ViewModels\\CategoryViewModels\\UpdateCategoryViewModel.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\CategoryViewModels\\UpdateCategoryViewModel.cs",
+              "RelativeToolTip": "Restoran.WebUI\\ViewModels\\CategoryViewModels\\UpdateCategoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:03:51.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\CategoryDto\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "Restoran.DtoLayer\\CategoryDto\\CreateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\CategoryDto\\CreateCategoryDto.cs",
+              "RelativeToolTip": "Restoran.DtoLayer\\CategoryDto\\CreateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:37:53.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\CategoryDto\\UpdateCategoryDto.cs",
+              "RelativeDocumentMoniker": "Restoran.DtoLayer\\CategoryDto\\UpdateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\CategoryDto\\UpdateCategoryDto.cs",
+              "RelativeToolTip": "Restoran.DtoLayer\\CategoryDto\\UpdateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:37:47.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Restoran.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Program.cs",
+              "RelativeToolTip": "Restoran.Api\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T13:24:14.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Restoran.Api\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Restoran.Api\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T05:32:33.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ResultCategoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\CategoryViewModels\\ResultCategoryViewModel.cs",
+              "RelativeDocumentMoniker": "Restoran.WebUI\\ViewModels\\CategoryViewModels\\ResultCategoryViewModel.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\CategoryViewModels\\ResultCategoryViewModel.cs",
+              "RelativeToolTip": "Restoran.WebUI\\ViewModels\\CategoryViewModels\\ResultCategoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T06:26:19.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "Restoran.WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\Program.cs",
+              "RelativeToolTip": "Restoran.WebUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T06:34:59.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateCategoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\CategoryViewModels\\CreateCategoryViewModel.cs",
+              "RelativeDocumentMoniker": "Restoran.WebUI\\ViewModels\\CategoryViewModels\\CreateCategoryViewModel.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\ViewModels\\CategoryViewModels\\CreateCategoryViewModel.cs",
+              "RelativeToolTip": "Restoran.WebUI\\ViewModels\\CategoryViewModels\\CreateCategoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T06:40:55.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AboutManager.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.BusinessLayer\\Concrete\\AboutManager.cs",
+              "RelativeDocumentMoniker": "Restoran.BusinessLayer\\Concrete\\AboutManager.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.BusinessLayer\\Concrete\\AboutManager.cs",
+              "RelativeToolTip": "Restoran.BusinessLayer\\Concrete\\AboutManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T05:39:17.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "AboutController.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\AboutController.cs",
               "RelativeDocumentMoniker": "Restoran.Api\\Controllers\\AboutController.cs",
@@ -205,33 +495,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Restoran.Api\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Restoran.Api\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwEcAAABOAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "FeatureController.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\FeatureController.cs",
+              "RelativeDocumentMoniker": "Restoran.Api\\Controllers\\FeatureController.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\FeatureController.cs",
+              "RelativeToolTip": "Restoran.Api\\Controllers\\FeatureController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T13:19:39.731Z",
+              "WhenOpened": "2025-09-22T07:26:45.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Restoran.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Program.cs",
-              "RelativeToolTip": "Restoran.Api\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T13:24:14.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 23,
               "Title": "EfProductDal.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DataAccessLayer\\EntityFramework\\EfProductDal.cs",
               "RelativeDocumentMoniker": "Restoran.DataAccessLayer\\EntityFramework\\EfProductDal.cs",
@@ -239,12 +516,35 @@
               "RelativeToolTip": "Restoran.DataAccessLayer\\EntityFramework\\EfProductDal.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T13:02:58.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T13:02:58.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 25,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Restoran.Api\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Restoran.Api\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwEcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T13:19:39.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TestimonialController.cs",
+              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\TestimonialController.cs",
+              "RelativeDocumentMoniker": "Restoran.Api\\Controllers\\TestimonialController.cs",
+              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\TestimonialController.cs",
+              "RelativeToolTip": "Restoran.Api\\Controllers\\TestimonialController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwDQAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T08:15:58.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DataAccessLayer\\Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Restoran.DataAccessLayer\\Repositories\\IGenericRepository.cs",
@@ -252,38 +552,23 @@
               "RelativeToolTip": "Restoran.DataAccessLayer\\Repositories\\IGenericRepository.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAgwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T13:10:49.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T13:10:49.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Restoran.WebUI\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Restoran.WebUI\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T08:39:38.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Restoran.Api",
+              "DocumentIndex": 26,
+              "Title": "Restoran.Api.csproj",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Restoran.Api.csproj",
               "RelativeDocumentMoniker": "Restoran.Api\\Restoran.Api.csproj",
               "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Restoran.Api.csproj",
               "RelativeToolTip": "Restoran.Api\\Restoran.Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-22T06:43:05.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T06:43:05.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 27,
               "Title": "SocialMediaController.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\SocialMediaController.cs",
               "RelativeDocumentMoniker": "Restoran.Api\\Controllers\\SocialMediaController.cs",
@@ -291,25 +576,23 @@
               "RelativeToolTip": "Restoran.Api\\Controllers\\SocialMediaController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAAwDMAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T08:15:59.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T08:15:59.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Restoran.WebUI",
+              "DocumentIndex": 28,
+              "Title": "Restoran.WebUI.csproj",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\Restoran.WebUI.csproj",
               "RelativeDocumentMoniker": "Restoran.WebUI\\Restoran.WebUI.csproj",
               "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.WebUI\\Restoran.WebUI.csproj",
               "RelativeToolTip": "Restoran.WebUI\\Restoran.WebUI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-22T08:25:00.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T08:25:00.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 29,
               "Title": "DiscountController.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\DiscountController.cs",
               "RelativeDocumentMoniker": "Restoran.Api\\Controllers\\DiscountController.cs",
@@ -317,12 +600,11 @@
               "RelativeToolTip": "Restoran.Api\\Controllers\\DiscountController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwDMAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T07:20:20.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T07:20:20.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 31,
               "Title": "ContactController.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\ContactController.cs",
               "RelativeDocumentMoniker": "Restoran.Api\\Controllers\\ContactController.cs",
@@ -330,25 +612,11 @@
               "RelativeToolTip": "Restoran.Api\\Controllers\\ContactController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAABgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T07:13:00.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T07:13:00.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Restoran.Api\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Restoran.Api\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:32:33.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 30,
               "Title": "BookingController.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "Restoran.Api\\Controllers\\BookingController.cs",
@@ -356,12 +624,11 @@
               "RelativeToolTip": "Restoran.Api\\Controllers\\BookingController.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T12:53:35.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T12:53:35.887Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 32,
               "Title": "AboutMapping.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Mapping\\AboutMapping.cs",
               "RelativeDocumentMoniker": "Restoran.Api\\Mapping\\AboutMapping.cs",
@@ -369,38 +636,11 @@
               "RelativeToolTip": "Restoran.Api\\Mapping\\AboutMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T10:56:26.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T10:56:26.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CreateCategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\CategoryDto\\CreateCategoryDto.cs",
-              "RelativeDocumentMoniker": "Restoran.DtoLayer\\CategoryDto\\CreateCategoryDto.cs",
-              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\CategoryDto\\CreateCategoryDto.cs",
-              "RelativeToolTip": "Restoran.DtoLayer\\CategoryDto\\CreateCategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:37:53.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UpdateCategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\CategoryDto\\UpdateCategoryDto.cs",
-              "RelativeDocumentMoniker": "Restoran.DtoLayer\\CategoryDto\\UpdateCategoryDto.cs",
-              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\CategoryDto\\UpdateCategoryDto.cs",
-              "RelativeToolTip": "Restoran.DtoLayer\\CategoryDto\\UpdateCategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T05:37:47.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 34,
               "Title": "ResultProductWithCategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\ProductDto\\ResultProductWithCategoryDto.cs",
               "RelativeDocumentMoniker": "Restoran.DtoLayer\\ProductDto\\ResultProductWithCategoryDto.cs",
@@ -408,25 +648,11 @@
               "RelativeToolTip": "Restoran.DtoLayer\\ProductDto\\ResultProductWithCategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T13:29:22.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T13:29:22.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "GetProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\ProductDto\\GetProductDto.cs",
-              "RelativeDocumentMoniker": "Restoran.DtoLayer\\ProductDto\\GetProductDto.cs",
-              "ToolTip": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DtoLayer\\ProductDto\\GetProductDto.cs",
-              "RelativeToolTip": "Restoran.DtoLayer\\ProductDto\\GetProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T13:29:34.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 35,
               "Title": "ContactMapping.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Mapping\\ContactMapping.cs",
               "RelativeDocumentMoniker": "Restoran.Api\\Mapping\\ContactMapping.cs",
@@ -434,12 +660,11 @@
               "RelativeToolTip": "Restoran.Api\\Mapping\\ContactMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T11:07:33.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T11:07:33.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 33,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DataAccessLayer\\Contracts\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Restoran.DataAccessLayer\\Contracts\\AppDbContext.cs",
@@ -447,12 +672,11 @@
               "RelativeToolTip": "Restoran.DataAccessLayer\\Contracts\\AppDbContext.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAmwBYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T13:14:24.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T13:14:24.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 36,
               "Title": "ProductManager.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.BusinessLayer\\Concrete\\ProductManager.cs",
               "RelativeDocumentMoniker": "Restoran.BusinessLayer\\Concrete\\ProductManager.cs",
@@ -460,12 +684,11 @@
               "RelativeToolTip": "Restoran.BusinessLayer\\Concrete\\ProductManager.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T13:12:04.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T13:12:04.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 37,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.EntityLayer\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "Restoran.EntityLayer\\Entities\\Product.cs",
@@ -473,12 +696,11 @@
               "RelativeToolTip": "Restoran.EntityLayer\\Entities\\Product.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAwwA4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T12:33:53.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T12:33:53.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 38,
               "Title": "ProductMapping.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Mapping\\ProductMapping.cs",
               "RelativeDocumentMoniker": "Restoran.Api\\Mapping\\ProductMapping.cs",
@@ -486,12 +708,11 @@
               "RelativeToolTip": "Restoran.Api\\Mapping\\ProductMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T11:15:46.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T11:15:46.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 39,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.BusinessLayer\\Abstract\\IProductService.cs",
               "RelativeDocumentMoniker": "Restoran.BusinessLayer\\Abstract\\IProductService.cs",
@@ -499,12 +720,11 @@
               "RelativeToolTip": "Restoran.BusinessLayer\\Abstract\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T13:19:01.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T13:19:01.343Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 40,
               "Title": "EfFeatureDal.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DataAccessLayer\\EntityFramework\\EfFeatureDal.cs",
               "RelativeDocumentMoniker": "Restoran.DataAccessLayer\\EntityFramework\\EfFeatureDal.cs",
@@ -512,12 +732,11 @@
               "RelativeToolTip": "Restoran.DataAccessLayer\\EntityFramework\\EfFeatureDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T13:25:12.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T13:25:12.956Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 42,
               "Title": "EfCategoryDal.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DataAccessLayer\\EntityFramework\\EfCategoryDal.cs",
               "RelativeDocumentMoniker": "Restoran.DataAccessLayer\\EntityFramework\\EfCategoryDal.cs",
@@ -525,12 +744,11 @@
               "RelativeToolTip": "Restoran.DataAccessLayer\\EntityFramework\\EfCategoryDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T13:03:35.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T13:03:35.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 43,
               "Title": "EfContactDal.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DataAccessLayer\\EntityFramework\\EfContactDal.cs",
               "RelativeDocumentMoniker": "Restoran.DataAccessLayer\\EntityFramework\\EfContactDal.cs",
@@ -538,12 +756,11 @@
               "RelativeToolTip": "Restoran.DataAccessLayer\\EntityFramework\\EfContactDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T13:11:53.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T13:11:53.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 41,
               "Title": "IProductDal.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DataAccessLayer\\Abstracts\\IProductDal.cs",
               "RelativeDocumentMoniker": "Restoran.DataAccessLayer\\Abstracts\\IProductDal.cs",
@@ -551,12 +768,11 @@
               "RelativeToolTip": "Restoran.DataAccessLayer\\Abstracts\\IProductDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T13:03:05.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T13:03:05.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 51,
               "Title": "20250921124205_add_relation_category_product.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.DataAccessLayer\\Migrations\\20250921124205_add_relation_category_product.cs",
               "RelativeDocumentMoniker": "Restoran.DataAccessLayer\\Migrations\\20250921124205_add_relation_category_product.cs",
@@ -564,12 +780,11 @@
               "RelativeToolTip": "Restoran.DataAccessLayer\\Migrations\\20250921124205_add_relation_category_product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T12:42:05.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T12:42:05.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 44,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.EntityLayer\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "Restoran.EntityLayer\\Entities\\Category.cs",
@@ -577,12 +792,11 @@
               "RelativeToolTip": "Restoran.EntityLayer\\Entities\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T12:33:16.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T12:33:16.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 45,
               "Title": "TestimonialMapping.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Mapping\\TestimonialMapping.cs",
               "RelativeDocumentMoniker": "Restoran.Api\\Mapping\\TestimonialMapping.cs",
@@ -590,12 +804,11 @@
               "RelativeToolTip": "Restoran.Api\\Mapping\\TestimonialMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T11:18:52.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T11:18:52.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 46,
               "Title": "SocialMediaMapping.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Mapping\\SocialMediaMapping.cs",
               "RelativeDocumentMoniker": "Restoran.Api\\Mapping\\SocialMediaMapping.cs",
@@ -603,12 +816,11 @@
               "RelativeToolTip": "Restoran.Api\\Mapping\\SocialMediaMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T11:17:56.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T11:17:56.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 47,
               "Title": "FeatureMapping.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Mapping\\FeatureMapping.cs",
               "RelativeDocumentMoniker": "Restoran.Api\\Mapping\\FeatureMapping.cs",
@@ -616,12 +828,11 @@
               "RelativeToolTip": "Restoran.Api\\Mapping\\FeatureMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T11:13:06.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T11:13:06.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 48,
               "Title": "CategoryMapping.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Mapping\\CategoryMapping.cs",
               "RelativeDocumentMoniker": "Restoran.Api\\Mapping\\CategoryMapping.cs",
@@ -629,12 +840,11 @@
               "RelativeToolTip": "Restoran.Api\\Mapping\\CategoryMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T11:12:05.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T11:12:05.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 49,
               "Title": "DiscountMapping.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Mapping\\DiscountMapping.cs",
               "RelativeDocumentMoniker": "Restoran.Api\\Mapping\\DiscountMapping.cs",
@@ -642,12 +852,11 @@
               "RelativeToolTip": "Restoran.Api\\Mapping\\DiscountMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T11:09:51.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T11:09:51.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 50,
               "Title": "BookingMapping.cs",
               "DocumentMoniker": "C:\\Users\\DTOBOLAT\\source\\repos\\Restoran_SignalR\\Restoran.Api\\Mapping\\BookingMapping.cs",
               "RelativeDocumentMoniker": "Restoran.Api\\Mapping\\BookingMapping.cs",
@@ -655,8 +864,7 @@
               "RelativeToolTip": "Restoran.Api\\Mapping\\BookingMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T11:03:15.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T11:03:15.295Z"
             }
           ]
         }
