@@ -1,16 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualBasic;
 using Newtonsoft.Json;
-using Restoran.WebUI.ViewModels.ProductViewModels;
+using Restoran.WebUI.ViewModels.FeatureViewModels;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Restoran.WebUI.Controllers
 {
-    public class ProductController : Controller
+    public class FeatureController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
 
-        public ProductController(IHttpClientFactory httpClientFactory)
+        public FeatureController(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         }
@@ -18,34 +19,34 @@ namespace Restoran.WebUI.Controllers
         public async Task<IActionResult> Index()
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("apilink");
+            var responseMessage = await client.GetAsync("link");
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<List<ResultProductViewModel>>(jsonData);
+                var values = JsonConvert.DeserializeObject<List<ResultFeatureViewModel>>(jsonData);
                 return View(values);
             }
             return View();
         }
         [HttpGet]
-        public IActionResult CreateProduct()
+        public IActionResult CreateFeature()
         {
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> CreateProduct(CreateProductViewModel createProductViewModel)
+        public async Task<IActionResult> CreateFeature(CreateFeatureViewModel createFeatureViewModel)
         {
             var client = _httpClientFactory.CreateClient();
-            var jsonData = JsonConvert.SerializeObject(createProductViewModel);
-            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "Application/json");
-            var responseMessage = await client.PostAsync("apilink", stringContent);
+            var jsonData = JsonConvert.SerializeObject(createFeatureViewModel);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PostAsync("link", stringContent);
             if (responseMessage.IsSuccessStatusCode)
             {
-                return View("Index");
+                return RedirectToAction("Index");
             }
             return View();
         }
-        public async Task<IActionResult> DeleteProduct(int id)
+        public async Task<IActionResult> DeleteFeature(int id)
         {
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.DeleteAsync($"apilink/{id}");
@@ -56,30 +57,31 @@ namespace Restoran.WebUI.Controllers
             return View();
         }
         [HttpGet]
-        public async Task<IActionResult> UpdateProduct(int id)
+        public async Task<IActionResult> UpdateFeature(int id)
         {
             var client = _httpClientFactory.CreateClient();
-            var responseMessage = await client.GetAsync("apilink?id={id}");
+            var responseMessage = await client.GetAsync($"link/{id}");
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
-                var value = JsonConvert.DeserializeObject<UpdateProductViewModel>(jsonData);
+                var value = JsonConvert.DeserializeObject<UpdateFeatureViewModel>(jsonData);
                 return View(value);
             }
-            return View();
+            return RedirectToAction("Index");
         }
         [HttpPost]
-        public async Task<IActionResult> UpdateProduct(UpdateProductViewModel updateProductViewModel)
+        public async Task<IActionResult> UpdateFeature(UpdateFeatureViewModel updateFeatureViewModel)
         {
             var client = _httpClientFactory.CreateClient();
-            var jsonData = JsonConvert.SerializeObject(updateProductViewModel);
-            StringContent stringContent = new(jsonData, Encoding.UTF8, "application/json");
-            var responseMessage = await client.PutAsync("apilink", stringContent);
+            var jsonData = JsonConvert.SerializeObject(updateFeatureViewModel);
+            StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PutAsync("link", content);
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
             }
             return View();
         }
+
     }
 }

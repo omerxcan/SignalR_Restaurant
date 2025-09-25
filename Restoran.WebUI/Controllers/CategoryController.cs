@@ -63,7 +63,7 @@ namespace Restoran.WebUI.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> CreateCategory(UpdateCategoryViewModel updateCategoryViewModel)
+        public async Task<IActionResult> UpdateCategory(UpdateCategoryViewModel updateCategoryViewModel)
         {
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(updateCategoryViewModel);

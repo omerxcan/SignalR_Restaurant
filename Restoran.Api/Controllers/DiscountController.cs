@@ -32,7 +32,7 @@ namespace Restoran.Api.Controllers
             _discountService.TAdd(value);
             return Ok("İndirim başarıyla oluşturuldu");
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteDiscount(int id)
         {
             var value = _discountService.TGetById(id);
